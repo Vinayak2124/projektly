@@ -1,0 +1,8 @@
+package com.vinayak.project_management_system.service;
+
+import com.vinayak.project_management_system.model.Chat;
+
+public interface ChatService {
+
+    Chat createChat(Chat chat);
+}
